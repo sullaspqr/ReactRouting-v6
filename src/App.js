@@ -16,7 +16,7 @@ function App(){
     <Routes>
       <Route path="/" element={<Home />}/>
       <Route path="/about" element={<About />}/>
-      <Route path="/profile/:username/:alap" element={<Profile />}/>
+      <Route path="/profile/:username&:alap" element={<Profile />}/>
       <Route path="*" element={<Error />}/>
     </Routes>
     <div>Lábléc</div>
